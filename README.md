@@ -45,7 +45,7 @@ Soft Skills: Comunicação, liderança, empatia, etc.
 
 - Deve ter um rodapé com as informações da pessoa que desenvolveu o portfólio;
 
-**Importante:\\Todas as imagens estarão disponíveis no Figma para fazer download.
+**Importante: Todas as imagens estarão disponíveis no Figma para fazer download.
 
 **Extras:**
 
