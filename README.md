@@ -11,7 +11,7 @@
 
 # Challenge Alura Front End - Parte 2
 
-**Descrição**
+**Descrição:**
 
 Bem-vindas e bem-vindos ao primeiro desafio do Challenge Front End!
 
@@ -47,7 +47,7 @@ Soft Skills: Comunicação, liderança, empatia, etc.
 
 **Importante:\\Todas as imagens estarão disponíveis no Figma para fazer download.
 
-Extras:
+**Extras:**
 
 A página deve conter um botão que permita visualizar, em uma nova aba, uma versão em PDF do seu currículo.
 
