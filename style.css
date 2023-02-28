@@ -55,7 +55,6 @@ header {
   flex-direction: row;
   gap: 2rem;
   justify-content: space-between;
-  max-height: 368px;
   max-width: 1136px;
   width: 100%;
 }
