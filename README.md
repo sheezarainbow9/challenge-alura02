@@ -1,56 +1,57 @@
-<p align="center">
-   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white"/>
-   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+# Challenge ONE | Front End - Portfólio
+---
+
+<p align="center" >
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
+</p>
+
+###  Primeiros Passos:
+---
+#### 🔹Marque esse projeto com uma ⭐
+#### 🔹Siga as orientações do que temos neste repositório 📚
+#### 🔹Visite a página do desafio clicando aqui! [Link do Challenge](https://www.alura.com.br/challenges/oracle-one-front-end/) 📃
+
+
+### Analisando nosso repositório!
+---
+### Este é o repositório base do nosso projeto, nele voce encontrará:
+#### 🔹index.html: Documento HTML finalizado que você pode utilizar em seu projeto. Fonte, CSS e JavaScript já linkado e todas as sessões comentadas. Sinta-se a vontade para executar o seu próprio HTML caso deseje;
+#### 🔹style.css: Documento de CSS com instruções de estilo e também algumas sugestões para seu desenvolvimento
+#### 🔹validacao.js: Documento vazio para que possa aplicar sua lógica de programação, trabalhando com a validação de formulário em JavaScript
+#### Ao clonar, ou realizar o download do projeto base, você tera essa apresentação:
+
+
+<p align="center" >
+     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168888313-d031e9e1-1449-4b73-bd3c-3102223097f3.png">
 </p>
 
 
-# Challenge Alura Front End - Parte 2
+## Como incluir meu projeto com a "#" do desafio?
+---
+1) Publique seu repositório no Github
+2) Publique seu projeto no GitHub Pages: [Como publicar meus projetos com Github Pages?](https://docs.github.com/pt/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+3) Utilize o tópico:
 
-#challengeoneportfolio4
-
-**Descrição:**
-
-Bem-vindas e bem-vindos ao primeiro desafio do Challenge Front End!
-
-Nessa sprint vamos trabalhar na construção de um portfólio, assim você conseguirá mostrar os seus projetos para possíveis recrutadores.
-
-**Requisitos:**
-
-- Deve ter um menu de navegação;
-
-- Deve ter uma imagem que servirá de banner;
-
-- Deve conter uma seção "sobre mim";
-
-- Deve ter uma foto de perfil;
-
-- Deve incluir um link para as suas redes sociais;
-
-- Deve conter estes dados pessoais: Nome; Idade; Nacionalidade; Biografia.
-
-- Deve ter uma seção de Hobbies e Soft Skills. Por exemplo:
-
-Hobbies: Atividades que você gosta de fazer;
-
-Soft Skills: Comunicação, liderança, empatia, etc.
-
-- Deve ter uma seção de formações e cursos: Aqui você pode colocar as formações e cursos que você já tenha feito, mesmo que não seja na área da programação. (Coloque as mais importantes).
-
-- Deve ter uma seção de experiência em programação: Aqui você pode colocar os projetos que você já realizou anteriormente, como, por exemplo: os projetos do challenge iniciante em programação.
-
-- Deve ter um formulário de contato com os campos para: Email; Nome; Assunto; Mensagem.
-
-- Deve ter um rodapé com as informações da pessoa que desenvolveu o portfólio;
-
-**Importante: Todas as imagens estarão disponíveis no Figma para fazer download.
-
-**Extras:**
-
-A página deve conter um botão que permita visualizar, em uma nova aba, uma versão em PDF do seu currículo.
+     -Turma 3: **challengeoneportfolio3**
+     
+     -Turma 4: **challengeoneportfolio4**
+     
+Vá na aba "Sobre" ou "About" do seu projeto no menu lateral que fica na esquerda dentro do repositório no GitHub Adicione a tag "**challengeoneportfolio3**" ou "**challengeoneportfolio4**" dependendo de qual turma você pertence.
 
 
+![gif-vitrine](https://user-images.githubusercontent.com/91544872/153601047-62aee6cb-e3cf-42b3-92c3-7130c996113f.gif)
+
+## Como faço a entrega final do meu Projeto?
+---
+
+4) Preencha o formulário a seguir com seus dados pessoais, juntamente com o link do seu repositório e do seu GitHub Pages.
+
+🔹 [Link para o formulário](https://lp.alura.com.br/alura-latam-entrega-challenge-one-portugues)
+ ![image](https://user-images.githubusercontent.com/92184087/208179699-a9fc5b9e-c9b5-4dab-a711-43ddfbcd00d0.png)
+
+5) Vá para seu e-mail e resgate sua badge conquistada por encerrar mais um desafio no Projeto ONE! 🏆
+6) Não se esqueça de colocar um link ou vídeo de seu projeto no Linkedin! Marque com a #Oracle #AluraLatam 🏁
+
+
+ <a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
+<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
