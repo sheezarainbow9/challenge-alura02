@@ -117,13 +117,14 @@ section.about {
 
 section.about div.about-container p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 16px;
+  margin: 0px;
 }
 
-section.about div.about-container img {
+/* section.about div.about-container img {
   margin: 16px;
-}
+} */
 
 /*Sessão Skill*/
 
@@ -484,12 +485,12 @@ section.footer div.rodape {
   /*Sessão sobre*/
 
   section.about {
-      padding: 62px 164px;
+      padding: 62px 160px;
   }
 
   div.about-container {
       width: 751px;
-      height: 255px;
+      height: 100px;
   }
 
   /*Skills*/
