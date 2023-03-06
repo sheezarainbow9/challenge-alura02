@@ -22,8 +22,10 @@ header {
   gap: 1rem;
 }
 
-header.header-logo {
+.header-logo {
+  align-items: center;
   display: flex;
   width: 50%;
+  gap: .5rem;
 
 }
