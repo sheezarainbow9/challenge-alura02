@@ -9,6 +9,17 @@ body {
   width: 100vw;
 }
 
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -26,6 +37,18 @@ header {
   align-items: center;
   display: flex;
   width: 50%;
-  gap: .5rem;
+  gap: 0.5rem;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+.menu-item {
+  margin-top: 8px;
 
 }
