@@ -50,5 +50,61 @@ header {
 
 .menu-item {
   margin-top: 8px;
+}
 
+.hello {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 208px;
+  width: 1136px;
+  height: 368px;
+  margin-top: 3%;
+}
+
+.ola {
+  display: flex;
+  padding: 4px 2em 0 2em;
+  width: 100%;
+  gap: 0.1rem;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 61px;
+  color: #464646;
+  width: 751px;
+  height: 122px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+h3 {
+  width: 751px;
+  height: 52px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #464646;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  
+}
+
+.photo {
+  width: 350px;
+  height: 350px;
+}
+
+.links {
+  display: flex;
 }
