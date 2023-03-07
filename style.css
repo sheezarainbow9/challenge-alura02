@@ -70,7 +70,6 @@ header {
   padding: 4px 2em 0 2em;
   width: 100%;
   gap: 0.1rem;
-  flex-wrap: nowrap;
 }
 
 h2 {
