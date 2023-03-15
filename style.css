@@ -56,6 +56,7 @@ header {
 
 .menu-item {
   margin-top: 8px;
+  white-space: nowrap;
 }
 
 .hello {
