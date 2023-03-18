@@ -1,0 +1,53 @@
+.curso {
+  align-items: center;
+  background: #eaf2fd;
+  display: flex;
+  gap: 1px;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  margin-top: 3%;
+  padding: 1px 1em 0 1em;
+  width: 110%;
+}
+
+.cursos h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #464646;
+  justify-content: center;
+  margin-bottom: 43px;
+  margin-top: 2px;
+}
+
+.cursos-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 120px;
+  margin-top: 1px;
+}
+
+.cursos-box ul {
+  display: flex;
+  align-content: center;
+  padding: 16px;
+  background-color: #ffffff;
+  margin: 2px 0;
+  width: 305px;
+  height: 210px;
+  align-items: center;
+}
+
+.cursos-box img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+

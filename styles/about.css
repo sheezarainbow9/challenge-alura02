@@ -1,0 +1,40 @@
+.about {
+  align-items: flex-start;
+  background: #eaf2fd; 
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  height: 300px;
+  justify-content: center;
+  margin-top: 3%;
+  padding: 1px 1em 0 1em;
+  width: 110%;
+}
+
+.about-me {
+  flex-direction: column;
+  gap: 0 0.1em;
+  padding: 1px 1em 0 1em;
+  width: 100%;
+}
+
+.about-me>h3 {
+  color: #464646;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  height: 38px;
+  line-height: 38px;
+  margin-top: 20px;
+  width: 166px;
+}
+
+.about-me>p {
+  color: #464646;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 133px;
+  line-height: 19px;
+  width: 751px;
+}
