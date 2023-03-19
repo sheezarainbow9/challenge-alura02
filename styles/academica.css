@@ -2,7 +2,7 @@
   align-items: center;
   background: #eaf2fd;
   display: flex;
-  gap: 1px;
+  gap: 1.25rem;
   flex-direction: column;
   height: 500px;
   justify-content: center;
@@ -18,36 +18,49 @@
   line-height: 38px;
   text-align: center;
   color: #464646;
-  justify-content: center;
-  margin-bottom: 43px;
-  margin-top: 2px;
+  /* (cima esquerda | direita baixo) tanto para margin quanto para padding*/
+  margin: 43px 0 2px;
 }
 
 .cursos-box {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 120px;
-  margin-top: 1px;
+  display: flex;
+  /* 
+    permite o elemento quebrar a linha de baixo 
+    caso não aja mais espaço na tela ou
+    chegue ao limite maximo especificado no css
+  */
+  flex-wrap: wrap;
+  /* Usa um espaçamento igual entre os elementos */
+  justify-content: space-evenly;
+  gap: 30px;
 }
 
 .cursos-box ul {
-  display: flex;
-  align-content: center;
-  padding: 16px;
-  background-color: #ffffff;
-  margin: 2px 0;
-  width: 305px;
-  height: 210px;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 190px;
+  padding: 1rem;
+  /* background-color: #ffffff; */
+  background: red;
+  width: 320px;
+  height: 220px;
 }
 
-.cursos-box img {
+.cursos-box--img {
   display: flex;
+  background: #ffff;
+  padding: 1rem;
+  /* alinhamneto no eixo Y*/
   align-items: center;
+  /* alinhamneto no eixo X*/
   justify-content: center;
 }
 
-
-
-
+.cursos-box p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
