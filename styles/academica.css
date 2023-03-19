@@ -33,17 +33,16 @@
   flex-wrap: wrap;
   /* Usa um espaçamento igual entre os elementos */
   justify-content: space-evenly;
-  gap: 30px;
+  gap: 3em;
 }
 
-.cursos-box ul {
+.cursos-box ul li {
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 190px;
+  gap: 3em;
   padding: 1rem;
-  /* background-color: #ffffff; */
-  background: red;
+  background-color: #ffffff;
   width: 320px;
   height: 220px;
 }
@@ -58,9 +57,6 @@
   justify-content: center;
 }
 
-.cursos-box p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.cursos-box p{
   text-align: center;
 }
