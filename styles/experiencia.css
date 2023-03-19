@@ -9,6 +9,17 @@
   height: 1886px;
 }
 
+.xp h3 {
+  width: 364px;
+  height: 38px;
+  color: #464646;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+}
 .experiencia .experiencia-box {
   display: flex;
   flex-direction: column;
@@ -28,30 +39,6 @@
   padding: 1rem 0 1rem 6rem;
 }
 
-.section-title {
-  width: 364px;
-  height: 38px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 38px;
-  text-align: center;
-  align-self: center;
-  color: #464646;
-}
-
-.info-container h3 {
-  width: 348px;
-  height: 26px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
-  color: #464646;
-}
-
 .info-container {
   display: flex;
   flex-direction: column;
@@ -60,6 +47,28 @@
   gap: 8px;
   width: 348px;
   height: 112px;
+}
+
+.info-container p {
+  width: 348px;
+  height: 26px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #464646;
+}
+
+.info-container h2 {
+  width: 348px;
+  height: 19px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
 }
 
 section.experiencia div.experiencia-box div.experiencia-description {
