@@ -5,6 +5,7 @@
 .experiencia-box {
   display: flex;
   align-items: center;
+  padding-top: 1rem;
 }
 
 .info-container {
@@ -12,6 +13,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  margin-left: 3rem;
 }
 
 .experiencia-description {
@@ -28,6 +30,7 @@
   font-size: 32px;
   line-height: 38px;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .experiencia-repo button {
