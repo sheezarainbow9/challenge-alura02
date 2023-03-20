@@ -47,19 +47,19 @@
       </div>
       <img class="photo" src="assets\profile.png">
     </section>
-      <section class="about" id="sobremim">
-        <div class="about-me">
-          <h3>Sobre Mim</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, rem? Ex, non, culpa perspiciatis eveniet
-            aperiam fuga nostrum voluptatem, architecto earum laborum inventore velit modi. Et possimus incidunt
-            sapiente qui?</p>
-        </div>
-      </section>
+    <section class="about" id="sobremim">
+      <div class="about-me">
+        <h3>Sobre Mim</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, rem? Ex, non, culpa perspiciatis eveniet
+          aperiam fuga nostrum voluptatem, architecto earum laborum inventore velit modi. Et possimus incidunt
+          sapiente qui?</p>
+      </div>
+    </section>
     </section>
     <section class="info">
       <div class="skills" id="skills">
         <h3>Skills</h3>
-        </div>
+      </div>
       <div class="skills-box">
         <ul>
           <li><img src="assets\icons8-html-48.png"></li>
@@ -86,7 +86,7 @@
     <section class="hobbie">
       <div class="hobbies" id="hobbies">
         <h3>Hobbies</h3>
-        </div>
+      </div>
       <div class="hobbies-box">
         <ul>
           <li><img src="assets\icons8-headphones-50.png"></li>
@@ -125,18 +125,17 @@
       <div class="xp" id="xp">
         <h3>Experiência Profissional</h3>
       </div>
-      <div class="experiencia-box">
-          <img src="assets\decod.png">
-          <div class="info-container">
-              <p>Decodificador de texto</p>
-              <h2>Challenge Alura Codificador </h2>
-              <div class="experiencia-description">
-                  <span class="experiencia-repo"><a href=""><button
-                              >Repositório</button></a></span>
-                  <span class="experiencia-demo"><a href=""><button >Ver
-                              demo</button></a></span>
-              </div>
+      <div class="experiencia-box"> <!-- Pai do <img/> e <div class="info-container"/> -->
+        <img src="assets\decod.png"> <!-- filho do -->
+        <div class="info-container">
+          <!-- Pai do <p/>, <h2/> e <div class="experiencia-description"/> mas filho do <div class="experiencia-box"/> -->
+          <p>Decodificador de texto</p> <!-- filho do <div class="info-container"/> -->
+          <h2>Challenge Alura Codificador </h2> <!-- filho do <div class="info-container"/> -->
+          <div class="experiencia-description">
+            <a class="experiencia-repo" href="#"><button>Repositório</button></a>
+            <a class="experiencia-demo" href="#"><button>Ver Demo</button></a>
           </div>
+        </div>
       </div>
     </section>
   </body>
