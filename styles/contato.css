@@ -1,0 +1,25 @@
+.contato-form {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 10px;
+  width: 1136px;
+  height: 660px;
+  /* background: #eaf2fd; */
+  background: pink;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+/* .image-phone {
+  display: flex;
+  gap: 2rem;
+  width: 464px;
+  height: 593px;
+  flex-direction: column-reverse;
+}
+
+.contato {
+  flex-direction: row-reverse;
+} */
