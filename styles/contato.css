@@ -47,7 +47,8 @@
   color: #464646;
 }
 
-.contato-input {
+.contato-input,
+.contato-textarea {
   width: 656px;
   height: 56px;
   background: #ffffff;
@@ -55,8 +56,15 @@
   flex: none;
   order: 0;
   align-self: stretch;
-  display: flex;
   flex-direction: column;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #464646;
 }
 
 #contato__botao {
@@ -105,4 +113,15 @@
   display: flex;
   align-items: center;
   color: #a2a2a2;
+}
+
+#email {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #464646;
 }
