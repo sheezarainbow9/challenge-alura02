@@ -69,10 +69,40 @@
   background: #2a7ae4;
   color: white;
   cursor: pointer;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 #contato__botao:hover {
   border: 1px solid #2a7ae4;
   background: white;
   color: #2a7ae4;
+}
+
+#id {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  align-items: center;
+  color: #a2a2a2;
+}
+
+#email::placeholder {
+  color: #2a7ae4;
+}
+
+#contato-textarea::placeholder {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #a2a2a2;
 }
