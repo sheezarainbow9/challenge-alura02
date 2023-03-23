@@ -21,18 +21,19 @@ section.formcontato div.contact-text h2.contact-title {
   line-height: 38px;
   align-items: center;
   justify-content: left;
+  padding: 10px;
   
 }
 section.formcontato div.contact-text p.contact-subtext {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 16px;
   margin: 0;
   font-family: "Raleway";
   font-style: normal;
   line-height: 19px;
   color: #464646;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
 }
 
 
