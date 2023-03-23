@@ -5,10 +5,14 @@ section.formcontato {
   display: flex;
 }
 
+.contact-text {
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
 section.formcontato div.esquerda img.contact-img {
-  width: 350px;
-  height: 350px;
-  padding: 1rem 1rem 1rem 2rem;
+  width: 464px;
+  height: 593px;
+  padding: 4rem 1rem 1rem 2rem;
 }
 
 section.formcontato div.contact-text h2.contact-title {
