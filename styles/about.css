@@ -1,6 +1,6 @@
 .about {
   align-items: flex-start;
-  background: #eaf2fd; 
+  background: #eaf2fd;
   display: flex;
   flex-direction: column;
   gap: 1px;
@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-.about-me>h3 {
+.about-me > h3 {
   color: #464646;
   font-size: 32px;
   font-style: normal;
@@ -29,7 +29,7 @@
   width: 166px;
 }
 
-.about-me>p {
+.about-me > p {
   color: #464646;
   font-size: 16px;
   font-style: normal;
@@ -39,9 +39,14 @@
   width: 751px;
 }
 
-/* Mobile celular
-@media screen and (max-width: 768px) {
-  .about {
-    width: 150%;
+/* Mobile celular */
+@media screen and (max-width: 375px) {
+  .about-me h2 {
+    font-size: 15px;
+    height: 30px;
   }
-} */
+
+  .about-me p {
+    font-size: 12px;
+  }
+}
