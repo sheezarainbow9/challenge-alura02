@@ -122,3 +122,10 @@ h2 {
     height: 100vh;
   }
 }
+
+/* Mobile celular */
+/* @media screen and (max-width: 768px) {
+  header {
+    gap: 30rem;
+  }
+} */
