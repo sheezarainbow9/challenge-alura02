@@ -111,15 +111,24 @@ h2 {
 .menu-list-item-c {
   visibility: hidden;
 }
+
 /* Mobile */
 
 @media screen and (max-width: 780px) {
   .menu-list {
     display: none;
   }
+
+  .menu-list-item-c {
+    visibility: visible;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  .menu-list-item-c {
+    visibility: visible;
+  }
+
   .hello {
     flex-direction: column-reverse;
     align-items: flex-start;
