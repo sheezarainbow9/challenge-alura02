@@ -86,10 +86,8 @@ h2 {
   font-size: 2.813rem;
   font-style: normal;
   font-weight: 700;
-  height: 122px;
   line-height: 61px;
   order: 0;
-  width: 751px;
 }
 
 .ola > p {
@@ -97,9 +95,7 @@ h2 {
   font-size: 1.375rem;
   font-style: normal;
   font-weight: 400;
-  height: 52px;
   line-height: 26px;
-  width: 751px;
 }
 
 .photo {
