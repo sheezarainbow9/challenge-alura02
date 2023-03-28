@@ -20,7 +20,7 @@
 
 .about-me > h3 {
   color: #464646;
-  font-size: 32px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   height: 38px;
@@ -31,7 +31,7 @@
 
 .about-me > p {
   color: #464646;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   height: 133px;
@@ -42,11 +42,11 @@
 /* Mobile celular */
 @media screen and (max-width: 375px) {
   .about-me h2 {
-    font-size: 15px;
+    font-size: 0.938rem;
     height: 30px;
   }
 
   .about-me p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }

@@ -14,24 +14,17 @@
 .cursos h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 38px;
   text-align: center;
   color: #464646;
-  /* (cima esquerda | direita baixo) tanto para margin quanto para padding*/
   margin: 1px 0 2px;
 }
 
 .cursos-box {
   align-items: center;
   display: flex;
-  /* 
-    permite o elemento quebrar a linha de baixo 
-    caso não aja mais espaço na tela ou
-    chegue ao limite maximo especificado no css
-  */
   flex-wrap: wrap;
-  /* Usa um espaçamento igual entre os elementos */
   justify-content: space-evenly;
   gap: 3em;
 }
@@ -51,9 +44,7 @@
   display: flex;
   background: #ffff;
   padding: 1rem;
-  /* alinhamneto no eixo Y*/
   align-items: center;
-  /* alinhamneto no eixo X*/
   justify-content: center;
 }
 
