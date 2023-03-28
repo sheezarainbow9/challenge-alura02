@@ -10,14 +10,10 @@
   padding: 1px 1em 0 1em;
   width: 110%;
   flex: none;
-  order: 3;
   align-self: stretch;
-  flex-grow: 0;
 }
 
 .skills > h3 {
-  width: 82px;
-  height: 38px;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -63,14 +59,11 @@
   padding: 1px 1em 0 1em;
   width: 110%;
   flex: none;
-  order: 3;
   align-self: stretch;
   flex-grow: 0;
 }
 
 .hobbies > h3 {
-  width: 82px;
-  height: 38px;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
