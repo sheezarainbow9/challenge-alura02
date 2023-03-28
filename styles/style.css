@@ -136,10 +136,10 @@ h2 {
 }
 
 @media screen and (max-width: 376px) {
-  .photo {
-    width: 98px;
-    height: 98px;
-    justify-content: flex-start;
+  .hello {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 2rem 1rem 0 2rem;
   }
 
   .menu-list-item-c {
@@ -151,7 +151,19 @@ h2 {
     color: #464646;
   }
 
-  .hello {
-    flex-direction: column;
+  .photo {
+    width: 98px;
+    height: 98px;
+    padding: 0;
+  }
+
+  .ola h2 {
+    font-size: 1.375rem;
+    line-height: 26px;
+  }
+
+  .ola p {
+    font-size: 0.875rem;
+    line-height: 16px;
   }
 }
