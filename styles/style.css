@@ -26,7 +26,7 @@ header {
   color: #464646;
   display: flex;
   font-family: "Raleway";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   gap: 1rem;
   justify-content: space-between;
@@ -46,7 +46,7 @@ header {
   color: #464646;
   display: flex;
   flex-direction: row;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   gap: 32px;
@@ -83,7 +83,7 @@ h2 {
   color: #464646;
   flex: none;
   flex-grow: 0;
-  font-size: 45px;
+  font-size: 2.813rem;
   font-style: normal;
   font-weight: 700;
   height: 122px;
@@ -94,7 +94,7 @@ h2 {
 
 .ola > p {
   color: #464646;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-style: normal;
   font-weight: 400;
   height: 52px;
@@ -121,32 +121,31 @@ h2 {
     width: 100vw;
     height: 100vh;
   }
+
+  .menu-list-item-c {
+    visibility: hidden;
+  }
 }
 
-/* Mobile celular */
-@media screen and (max-width: 376px) {
-  header {
-    gap: 25px;
-    justify-content: space-between;
-  }
+/* Mobile */
 
+@media screen and (max-width: 780px) {
   .menu-list {
     display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .photo {
+    width: 98px;
+    height: 98px;
   }
 
   .menu-list-item-c {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 16px;
     color: #464646;
   }
-
-  .photo {
-    display: flex;
-    flex-direction: column;
-    width: 98px;
-    height: 98px;
-  }
-}
