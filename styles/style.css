@@ -139,6 +139,7 @@ h2 {
   .photo {
     width: 98px;
     height: 98px;
+    justify-content: flex-start;
   }
 
   .menu-list-item-c {
@@ -149,3 +150,8 @@ h2 {
     line-height: 16px;
     color: #464646;
   }
+
+  .hello {
+    flex-direction: column;
+  }
+}
