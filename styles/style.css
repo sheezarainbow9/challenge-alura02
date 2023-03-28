@@ -81,13 +81,10 @@ header {
 h2 {
   align-self: stretch;
   color: #464646;
-  flex: none;
-  flex-grow: 0;
   font-size: 2.813rem;
   font-style: normal;
   font-weight: 700;
   line-height: 61px;
-  order: 0;
 }
 
 .ola > p {
