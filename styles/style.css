@@ -73,8 +73,8 @@ header {
 .ola {
   display: flex;
   flex-direction: column;
-  gap: 0 0.1em;
-  padding: 1px 1em 0 1em;
+  gap: 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -133,6 +133,8 @@ h2 {
     flex-direction: column-reverse;
     align-items: flex-start;
     padding: 2rem 1rem 0 2rem;
+    justify-content: center;
+    height: 250px;
   }
 
   .menu-list-item-c {
@@ -159,4 +161,10 @@ h2 {
     font-size: 0.875rem;
     line-height: 16px;
   }
+
+  .links {
+    font-weight: 600;
+    line-height: 16px;
+  }
+
 }
