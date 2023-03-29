@@ -42,16 +42,12 @@
 /* Mobile celular */
 @media screen and (max-width: 376px) {
   .about {
-    width: 360px;
+    width: 380px;
     height: 350px;
   }
 
-  .about-me h2 {
+  .about-me {
     font-size: 0.938rem;
-    height: 30px;
   }
 
-  .about-me p {
-    font-size: 0.75rem;
-  }
 }
