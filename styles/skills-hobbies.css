@@ -97,3 +97,10 @@
   width: 156px;
   height: 118px;
 }
+
+@media screen and (max-width: 376px) {
+  .info {
+    flex-wrap: wrap;
+  
+  }
+}
