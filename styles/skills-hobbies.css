@@ -98,16 +98,10 @@
 .hobbies-box > ul {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 1rem;
-  display: flex;
-  padding: 16px;
-  background-color: #fbfbfb;
-  margin: 2px 0 2px 0;
-  width: 156px;
-  height: 118px;
 }
 
 .hobbies-box > ul > li {
@@ -116,7 +110,7 @@
   justify-content: flex-end;
   align-items: flex-start;
   padding: 1rem;
-  background-color: #fbfbfb;
+  background: #fbfbfb;
   margin: 2px 0 2px 0;
   width: 156px;
   height: 118px;
