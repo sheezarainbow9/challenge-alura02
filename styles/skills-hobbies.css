@@ -99,8 +99,7 @@
 }
 
 @media screen and (max-width: 376px) {
-  .info {
+  .skills .skills-box ul {
     flex-wrap: wrap;
-  
   }
 }
