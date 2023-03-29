@@ -28,23 +28,36 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 16px;
-  width: 1136px;
-  height: 174px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 1rem;
 }
 
 .skills-box > ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.skills-box > ul > li {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 16px;
+  padding: 1rem;
   background-color: #fbfbfb;
   margin: 2px 0 2px 0;
   width: 156px;
   height: 118px;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: #464646;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 19px;
 }
 
 .hobbie {
@@ -79,18 +92,17 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 16px;
-  width: 1136px;
-  height: 174px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 1rem;
 }
 
 .hobbies-box > ul {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  display: flex;
   padding: 16px;
   background-color: #fbfbfb;
   margin: 2px 0 2px 0;
@@ -98,8 +110,25 @@
   height: 118px;
 }
 
+.hobbies-box > ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: #fbfbfb;
+  margin: 2px 0 2px 0;
+  width: 156px;
+  height: 118px;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: #464646;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 19px;
+}
+
 @media screen and (max-width: 376px) {
-  .skills .skills-box ul {
-    flex-wrap: wrap;
-  }
 }
