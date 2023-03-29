@@ -54,6 +54,13 @@
   font-weight: 700;
   font-size: 1rem;
   line-height: 19px;
+  justify-content: flex-end;
+  
 }
 
+.cursos-box--img {
+  background: #ffff;
+  display: flex;
+  align-items: center;
+}
 
