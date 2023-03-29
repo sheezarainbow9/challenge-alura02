@@ -124,5 +124,14 @@
   line-height: 19px;
 }
 
+@media screen and (max-width: 780px) {
+  .skills-box > ul {
+    width: 33%;
+  }
+}
 @media screen and (max-width: 376px) {
+  .skills-box > ul {
+    width: 40%;
+    flex-direction: column;
+  }
 }
