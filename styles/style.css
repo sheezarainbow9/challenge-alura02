@@ -132,7 +132,7 @@ h2 {
   .hello {
     flex-direction: column-reverse;
     align-items: flex-start;
-    padding: 0 1rem 1rem;
+    padding: 0 2rem 1rem;
     justify-content: center;
     height: 250px;
   }
@@ -149,7 +149,6 @@ h2 {
   .photo {
     width: 98px;
     height: 98px;
-    padding: 0;
   }
 
   .ola h2 {
