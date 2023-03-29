@@ -125,9 +125,10 @@
 }
 
 @media screen and (max-width: 780px) {
-  .skills-box > ul {
+  .info {
     width: 33%;
   }
+
 }
 @media screen and (max-width: 376px) {
   .skills-box > ul {
