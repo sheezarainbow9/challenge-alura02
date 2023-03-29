@@ -132,7 +132,7 @@ h2 {
   .hello {
     flex-direction: column-reverse;
     align-items: flex-start;
-    padding: 2rem 1rem 0 2rem;
+    padding: 0 1rem 1rem;
     justify-content: center;
     height: 250px;
   }
