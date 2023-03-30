@@ -3,19 +3,15 @@
   background: #eaf2fd;
   display: flex;
   flex-direction: column;
-  gap: 1px;
-  height: 300px;
+  gap: 1rem;
   justify-content: center;
   margin-top: 3%;
-  padding: 1px 1em 0 1em;
-  width: 110%;
+  width: 100%;
 }
 
 .about-me {
-  flex-direction: column;
-  gap: 0 0.1em;
-  padding: 1px 1em 0 1em;
-  width: 100%;
+  margin: 0 0 0 1rem;
+  width: 90%;
 }
 
 .about-me > h3 {

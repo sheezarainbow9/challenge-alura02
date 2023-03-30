@@ -4,11 +4,10 @@
   display: flex;
   gap: 1.25rem;
   flex-direction: column;
-  height: 500px;
   justify-content: center;
   margin-top: 3%;
-  padding: 1px 1em 0 1em;
-  width: 110%;
+  padding: 1rem 0;
+  width: 100%;
 }
 
 .cursos h3 {
@@ -27,6 +26,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 3em;
+  width: 100%;
 }
 
 .cursos-box > ul {
