@@ -4,12 +4,14 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0;
+  padding: 0 0 3rem 0;
+  gap: 3rem;
 }
 
 .experiencia-box, 
 .form { 
    display: flex; 
+   justify-content: space-evenly;
  }
 
 .experiencia-box {
