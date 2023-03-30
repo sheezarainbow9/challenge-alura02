@@ -10,7 +10,7 @@
 }
 
 .about-me {
-  margin: 0 0 0 1rem;
+  margin: 2rem 0 0 1rem;
   width: 90%;
 }
 
@@ -20,9 +20,7 @@
   font-style: normal;
   font-weight: 700;
   height: 38px;
-  line-height: 38px;
-  margin-top: 20px;
-  width: 166px;
+  
 }
 
 .about-me > p {
@@ -32,7 +30,7 @@
   font-weight: 400;
   height: 133px;
   line-height: 19px;
-  width: 751px;
+  padding: 0.5rem 0;
 }
 
 /* Mobile celular */
