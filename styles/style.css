@@ -149,7 +149,7 @@ h2 {
   }
 }
 
-@media screen and (min-width: 345px) {
+@media screen and (max-width: 345px) {
   body {
     max-width: 365px;
   }
