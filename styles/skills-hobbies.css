@@ -6,6 +6,7 @@
   gap: 1px;
   justify-content: center;
   width: 100%;
+  margin: 1rem;
 }
 
 .skills > h3 {
@@ -14,8 +15,8 @@
   font-size: 2rem;
   line-height: 38px;
   text-align: center;
-  margin-bottom: 55px;
   color: #464646;
+  padding: 2rem 0;
 }
 
 .skills-box {
@@ -63,7 +64,7 @@
   gap: 1rem;
   justify-content: center;
   width: 100%;
-  
+  margin: 1rem;
 }
 
 .hobbies > h3 {
@@ -72,8 +73,7 @@
   font-size: 2rem;
   line-height: 38px;
   text-align: center;
-  margin-bottom: 65px;
-  margin-top: 20px;
+  padding: 2rem 0;
   color: #464646;
 }
 
