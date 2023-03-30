@@ -1,3 +1,12 @@
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
 .experiencia-box, 
 .form { 
    display: flex; 
@@ -67,7 +76,7 @@
 }
 
 .experiencia .experiencia-box img {
-  width: 50px;
+  width: 550px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -92,7 +101,7 @@
   align-items: center; 
   padding-top: 1rem; 
   gap: 2rem; 
-  margin-right: 8rem;
+  margin-right: 2rem;
 }
 
 
