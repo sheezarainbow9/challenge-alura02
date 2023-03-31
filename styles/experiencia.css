@@ -8,11 +8,11 @@
   gap: 3rem;
 }
 
-.experiencia-box, 
-.form { 
-   display: flex; 
-   justify-content: space-evenly;
- }
+.experiencia-box,
+.form {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .experiencia-box {
   align-items: center;
@@ -55,6 +55,8 @@
   color: #2a7ae4;
   box-sizing: border-box;
   cursor: pointer;
+  width: 105px;
+  height: 51px;
 }
 
 .experiencia-demo button {
@@ -63,6 +65,8 @@
   background: #2a7ae4;
   color: white;
   cursor: pointer;
+  width: 105px;
+  height: 51px;
 }
 
 #btn-repo:hover {
@@ -75,7 +79,6 @@
   border: 1px solid #2a7ae4;
   background: white;
   color: #2a7ae4;
-  
 }
 
 .experiencia .experiencia-box img {
@@ -101,26 +104,8 @@
 .experiencia-box--inverso {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center; 
-  padding-top: 1rem; 
-  gap: 2rem; 
+  align-items: center;
+  padding-top: 1rem;
+  gap: 2rem;
   margin-right: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
