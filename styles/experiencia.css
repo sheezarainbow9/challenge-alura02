@@ -109,3 +109,13 @@
   gap: 2rem;
   margin-right: 2rem;
 }
+
+@media screen and (max-width: 704px) {
+  body {
+    max-width: 768px;
+  }
+
+  .experiencia-box {
+    
+  }
+}
