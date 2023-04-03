@@ -63,13 +63,13 @@
   font-size: 1rem;
   line-height: 16px;
   align-items: center;
-  color: #A2A2A2;
+  color: #464646;
 
 }
 
 .contato-input::placeholder,
 .contato-textarea::placeholder {
-  color: #2A7AE4;
+  color: #A2A2A2;
 }
 
 .contato-input:active,
