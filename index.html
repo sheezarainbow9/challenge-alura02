@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/hello.css">
     <link rel="stylesheet" href="./styles/skills-hobbies.css">
     <link rel="stylesheet" href="./styles/academica.css">
     <link rel="stylesheet" href="./styles/experiencia.css">
@@ -21,12 +23,12 @@
 
   <body>
     <header>
-      <div class="header-logo">
-        <img class='img' src="./assets/star.png" alt="star">
+      <figure class="header-logo">
+        <img class="img" src="./assets/star.png" alt="star">
         <h3 class="title">S.H.E</h3>
-      </div>
-      <nav>
-        <ul class="menu-list">
+      </figure>
+      <nav class="menu-list">
+        <ul>
           <li class="menu-item"><a href="#sobremim">Sobre Mim</a></li>
           <li class="menu-item"><a href="#skills">Skills</a></li>
           <li class="menu-item"><a href="#hobbies">Hobbies</a></li>
@@ -34,14 +36,15 @@
           <li class="menu-item"><a href="#xp">Experiência</a></li>
           <li class="menu-item"><a href="#contato">Contato</a></li>
         </ul>
-        <li class="menu-list-item-c"><a href="#contato">whysoserious80@gmail.com</a></li>
+        <a class="menu-list-item-c" href="#contato">whysoserious80@gmail.com</a>
       </nav>
     </header>
     <section class="hello">
       <div class="ola">
         <h2>Olá, meu nome é S.H.E e sou Dev em Formação</h2>
         <p>Eu sou formada em Pedagogia e atualmente estou
-          participando no projeto Oracle ONE na Alura.</p>
+          participando no projeto Oracle ONE na Alura.
+        </p>
         <ul class="links">
           <li><a href="https://github.com/sheezarainbow9" target="_blank">Github <img src="assets\arrow.png"> </a></li>
           <li><a href="https://www.linkedin.com/in/sheezarainbow/" target="_blank">LinkedIn <img
@@ -51,131 +54,162 @@
       </div>
       <img class="photo" src="assets\profile.png" alt="profile photo">
     </section>
-    <section class="about" id="sobremim">
-      <div class="about-me">
-        <h3>Sobre Mim</h3>
-        <p>Sou estudante de Pedagogia com grande interesse em tecnologia e todas as facilidades que ela proporciona para
-          a aprendizagem e resoluções de problemas do dia a dia. O conhecimento liberta. Compartilhe!</p>
-      </div>
-    </section>
-    </section>
-    <section class="info">
-      <div class="skills" id="skills">
-        <h3>Skills</h3>
-      </div>
-      <div class="skills-box">
-        <ul>
-          <li><img src="assets\icons8-html-48.png" alt="html icon">
+    <main>
+      <section class="about" id="sobremim">
+        <h3 class="about-me--h3 about-me">Sobre Mim</h3>
+        <p class="about-me--p about-me">Sou estudante de Pedagogia com grande interesse em tecnologia e todas as
+          facilidades
+          que ela proporciona para
+          a aprendizagem e resoluções de problemas do dia a dia. O conhecimento liberta. Compartilhe!
+        </p>
+      </section>
+      <section class="info" id="skills">
+        <h3 class="skills">Skills</h3>
+        <ul class="skills-box">
+          <li>
+            <figure>
+              <img src="assets\icons8-html-48.png" alt="html icon">
+            </figure>
             <p>Html 5</p>
           </li>
-          <li><img src="assets\icons8-css3-50.png" alt="css icon">
+          <li>
+            <figure>
+              <img src="assets\icons8-css3-50.png" alt="css icon">
+            </figure>
             <p>CSS3</p>
           </li>
-          <li><img src="assets\icons8-javascript-50.png" alt="js icon">
+          <li>
+            <figure>
+              <img src="assets\icons8-javascript-50.png" alt="js icon">
+            </figure>
             <p>Javascript</p>
           </li>
-          <li><img src="assets\icons8-python-50.png" alt="python icon">
+          <li>
+            <figure>
+              <img src="assets\icons8-python-50.png" alt="python icon">
+            </figure>
             <p>Python</p>
           </li>
-          <li><img src="assets\icons8-nodejs-32.png" alt="nodejs icon">
+          <li>
+            <figure>
+              <img src="assets\icons8-nodejs-32.png" alt="nodejs icon">
+            </figure>
             <p>NodeJs</p>
           </li>
-        </ul>
-      </div>
-    </section>
-    <section class="hobbie">
-      <div class="hobbies" id="hobbies">
-        <h3>Hobbies</h3>
-      </div>
-      <div class="hobbies-box">
-        <ul>
-          <li><img src="assets\icons8-headphones-50.png" alt="headphones icon">
+      </section>
+      <section class="hobbie" id="hobbies">
+        <h3 class="hobbies">Hobbies</h3>
+        <ul class="hobbies-box">
+          <li>
+            <figure>
+              <img src="assets\icons8-headphones-50.png" alt="headphones icon">
+            </figure>
             <p>Música</p>
           </li>
-          <li><img src="assets\icons8-source-code-50.png" alt="coding icon">
+          <li>
+            <figure>
+              <img src="assets\icons8-source-code-50.png" alt="coding icon">
+            </figure>
             <p>Programar</p>
           </li>
-          <li><img src="assets\icons8-tv-show-50.png" alt="tv icon">
+          <li>
+            <figure>
+              <img src="assets\icons8-tv-show-50.png" alt="tv icon">
+            </figure>
             <p>Filmes e Séries</p>
           </li>
-          <li><img src="assets\icons8-wordbook-50.png" alt="book icon">
+          <li>
+            <figure>
+              <img src="assets\icons8-wordbook-50.png" alt="book icon">
+            </figure>
             <p>Leitura</p>
           </li>
         </ul>
-      </div>
-    </section>
-    <section class="curso">
-      <div class="cursos" id="formacao">
-        <h3>Formação Acadêmica</h3>
-      </div>
-      <div class="cursos-box">
-        <ul>
-          <li class="cursos-box--img"><img src="assets\fuctura.png" alt="Fuctura icon">
+      </section>
+      <section class="curso" id="formacao">
+        <h3 class="cursos">Formação Acadêmica</h3>
+        <ul class="cursos-box">
+          <li class="cursos-box--img">
+            <figure>
+              <img src="assets\fuctura.png" alt="Fuctura icon">
+            </figure>
             <p>Python - 2022</p>
           </li>
-          <li class="cursos-box--img"><img src="assets\alura.png" alt="Alura icon">
+          <li class="cursos-box--img">
+            <figure>
+              <img src="assets\alura.png" alt="Alura icon">
+            </figure>
             <p>Frontend Alura/Oracle One - 2023</p>
           </li>
         </ul>
-      </div>
-    </section>
-    <section class="experiencia">
-      <div class="xp" id="xp">
-        <h3>Experiência Profissional</h3>
-      </div>
-      <div class="experiencia-box">
-        <img src="assets\decodificador.png" alt="webpage image print">
-        <div class="info-container">
-          <p>Decodificador de texto</p>
-          <h4>Challenge Alura Codificador </h4>
-          <div class="experiencia-description">
-            <a class="experiencia-repo" href="https://github.com/sheezarainbow9/Alura-Challenge" target="_blank"><button
-                id="btn-repo">Repositório</button></a>
-            <a class="experiencia-demo" href="https://sheezarainbow9.github.io/Alura-Challenge/" target="_blank"><button
-                id="btn-demo">Ver Demo</button></a>
+      </section>
+      <section class="experiencia" id="xp">
+        <h3 class="xp">Experiência Profissional</h3>
+        <article class="experiencia-box">
+          <figure>
+            <img src="assets\decodificador.png" alt="webpage image print">
+          </figure>
+          <div class="info-container">
+            <p>Decodificador de texto</p>
+            <h4>Challenge Alura Codificador </h4>
+            <div class="experiencia-description">
+              <a class="experiencia-repo btn-repo" href="https://github.com/sheezarainbow9/Alura-Challenge"
+                target="_blank">
+                Repositório
+              </a>
+              <a class="experiencia-demo btn-demo" href="https://sheezarainbow9.github.io/Alura-Challenge/"
+                target="_blank">
+                Ver Demo
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="experiencia-box experiencia-box--inverso">
-        <img src="assets\login.png" alt="webpage image print">
-        <div class="info-container">
-          <p>Tela de Login</p>
-          <h4>Canal CursoEmVídeo</h4>
-          <div class="experiencia-description">
-            <a class="experiencia-repo" href="https://github.com/sheezarainbow9/projeto-login/" target="_blank"><button
-                id="btn-repo">Repositório</button></a>
-            <a class="experiencia-demo" href="https://sheezarainbow9.github.io/projeto-login/" target="_blank"><button
-                id="btn-demo">Ver Demo</button></a>
+        </article>
+        <article class="experiencia-box--inverso">
+          <figure>
+            <img src="assets\login.png" alt="webpage image print">
+          </figure>
+          <div class="info-container">
+            <p>Tela de Login</p>
+            <h4>Canal CursoEmVídeo</h4>
+            <div class="experiencia-description">
+              <a class="experiencia-repo btn-repo" href="https://github.com/sheezarainbow9/projeto-login/"
+                target="_blank">
+                Repositório
+              </a>
+              <a class="experiencia-demo btn-demo" href="https://sheezarainbow9.github.io/projeto-login/"
+                target="_blank">
+                Ver Demo
+              </a>
+            </div>
           </div>
+        </article>
+      </section>
+      <section class="formcontato">
+        <figure class="esquerda" id="contato">
+          <img class="contact-img" src="assets\contact_image.png" alt="old phone image">
+        </figure>
+        <div class="contact-text">
+          <h2 class="contact-title">Contato</h2>
+          <p class="contact-subtext">Quer entrar em contato comigo?<br>Preencha o formulário abaixo e entrarei em
+            contato
+            o mais rápido
+            possível.
+          </p>
+          <form class="form">
+            <span id="error"></span>
+            <input class="contato-input" type="text" id="nome" placeholder="Nome" maxlength="50">
+            <input class="contato-input" type="email" id="email" placeholder="E-mail">
+            <input class="contato-input" type="text" id="assunto" placeholder="Assunto">
+            <textarea class="contato-textarea" rows="5" cols="40" id="mensagem" name="mensagem"
+              placeholder="Mensagem"></textarea>
+            <button class="contato__botao" type="submit" value="Enviar Formulario">Enviar mensagem</button>
+          </form>
         </div>
-      </div>
-    </section>
-    <section class="formcontato">
-      <div class="esquerda" id="contato">
-        <img class="contact-img" src="assets\contact_image.png" alt="old phone image">
-      </div>
-      <div class="contact-text">
-        <h2 class="contact-title">Contato</h2>
-        <p class="contact-subtext">Quer entrar em contato comigo?<br>Preencha o formulário abaixo e entrarei em contato
-          o mais rápido
-          possível.</p>
-        <form class="form">
-          <span id="error"></span>
-          <input class="contato-input" type="text" id="nome" placeholder="Nome" maxlength="50">
-          <input class="contato-input-email" type="email" id="email" placeholder="E-mail">
-          <input class="contato-input" type="text" id="assunto" placeholder="Assunto">
-          <textarea class="contato-textarea" rows="5" cols="40" id="mensagem" name="mensagem"
-            placeholder="Mensagem"></textarea>
-          <button class="contato__botao" type="submit" value="Enviar Formulario">Enviar mensagem</button>
-        </form>
-      </div>
-    </section>
-    <section class="footer">
-      <div class="rodape">
-        <p>Desenvolvido por S.H.E<br>2023</p>
-      </div>
-    </section>
-    </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="rodape">Desenvolvido por S.H.E<br>2023</p>
+    </footer>
     <script src="validate.js"></script>
   </body>
 
