@@ -25,3 +25,7 @@
   Repositório do Challenge Portfólio da Fase 4 da formação frontend da Alura-One.
 </p>
 
+
+## Deploy da Aplicação :dash:
+
+https://sheezarainbow9.github.io/challenge-alura02/
