@@ -34,6 +34,6 @@ https://sheezarainbow9.github.io/challenge-alura02/
 ## Badge :dash:
 
 <p align="center">
-  <img src="[https://user-images.githubusercontent.com/101677993/217843126-c5c93a75-5e42-4441-ab4d-1fdc7762c5b3.JPG](https://user-images.githubusercontent.com/101677993/229825857-cd270cae-5dfe-4d8e-8b19-5a4a29020d0a.png)">
+  <img src="https://user-images.githubusercontent.com/101677993/229825857-cd270cae-5dfe-4d8e-8b19-5a4a29020d0a.png">
 </p>
 
