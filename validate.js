@@ -1,5 +1,5 @@
 function validarDados() {
-  event.preventDefault();
+  evento.preventDefault();
   var error = document.querySelector("#error");
   error.style.color = "black";
 
