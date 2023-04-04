@@ -7,7 +7,7 @@ function validarDados() {
 
   var msgError = [];
 
-  if (document.form.name.value == "") {
+  if (document.form.nome.value == "") {
     msgError.push("Preenchimento obrigatório!");
     document.form.nome.focus();
   } else if (document.form.email.value == "") {
