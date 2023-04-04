@@ -5,8 +5,7 @@
 </p>
 
 <p align="center" >
-     ![portfolio](https://user-images.githubusercontent.com/101677993/229822177-7084f1d6-43cc-484d-8d62-c512b7c027f8.png)
-
+     <img src="https://user-images.githubusercontent.com/101677993/229822177-7084f1d6-43cc-484d-8d62-c512b7c027f8.png">
 </p>
 
 <p align="center">
