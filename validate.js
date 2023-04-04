@@ -1,5 +1,5 @@
 function validarDados() {
-  evento.preventDefault();
+  event.preventDefault();
   var error = document.querySelector("#error");
   error.style.color = "black";
 
@@ -9,7 +9,7 @@ function validarDados() {
 
   if (document.form.name.value == "") {
     msgError.push("Preenchimento obrigatório!");
-    document.form.name.focus();
+    document.form.nome.focus();
   } else if (document.form.email.value == "") {
     msgError.push("Preenchimento obrigatório!");
     document.form.email.focus();
