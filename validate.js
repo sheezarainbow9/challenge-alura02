@@ -4,7 +4,7 @@ var assunto = document.querySelector("#assunto");
 var mensagem = document.querySelector("#mensagem");
 
 var botaoEnviar = document.querySelector("contato__botao");
-botaoEnviar.addEventListener("click", function (event) {
+botaoEnviar.addEventListener("submit", function (event) {
   event.preventDefault();
   var error = document.querySelector("#error");
   error.style.color = "black";
