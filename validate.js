@@ -1,51 +1,51 @@
-var nome = document.querySelector("#nome");
-var email = document.querySelector("#email");
-var assunto = document.querySelector("#assunto");
-var mensagem = document.querySelector("#mensagem");
+// var nome = document.querySelector("#nome");
+// var email = document.querySelector("#email");
+// var assunto = document.querySelector("#assunto");
+// var mensagem = document.querySelector("#mensagem");
 
-var botaoEnviar = document.querySelector("contato__botao");
-botaoEnviar.addEventListener("submit", function (event) {
+// var botaoEnviar = document.querySelector("contato__botao");
+// botaoEnviar.addEventListener("submit", function (event) {
+//   event.preventDefault();
+//   var error = document.querySelector("#error");
+//   error.style.color = "black";
+//   var form = document.querySelector("form");
+// });
+function validarDados(form) {
   event.preventDefault();
   var error = document.querySelector("#error");
-  error.style.color = "black";
-  var form = document.querySelector("form");
-});
+  error.style.color = "red";
 
-function validarDados() {
+  var expression = /\w+@\w+\.+[a-z]/;
+
   var msgError = [];
 
-  if (document.form.nome.value == "") {
+  if (form.nome.value == "") {
     msgError.push("Preenchimento obrigatório!");
-    document.form.nome.focus();
-  } else if (document.form.email.value == "") {
+    form.nome.focus();
+  } else if (form.email.value == "") {
     msgError.push("Preenchimento obrigatório!");
-    document.form.email.focus();
-  } else if (document.form.assunto.value == "") {
+    form.email.focus();
+  } else if (form.assunto.value == "") {
     msgError.push("Preenchimento obrigatório!");
-    document.form.assunto.focus();
+    form.assunto.focus();
+  } else if (form.mensagem.value == "") {
+    msgError.push("Campo Mensagem é obrigatório.");
+    form.mensagem.focus();
   } else if (
-    document.form.textarea.value == "" ||
-    document.form.textarea.value.length < 50
+    form.email.value.indexOf("@") == -1 ||
+    form.email.value.indexOf(".") == -1
   ) {
-    msgError.push(
-      "Campo Mensagem é obrigatório e deve conter pelo menos 50 caracteres."
-    );
-    document.form.textarea.focus();
-  } else if (
-    document.form.email.value.indexOf("@") == -1 ||
-    document.form.email.value.indexOf(".") == -1
-  ) {
-    msgError.push("E-mail inválido!");
+    msgError.push("Email inválido.");
   }
 
   error.innerHTML = msgError.join(",");
 }
 
-document.querySelector("form").addEventListener("submit", validarDados);
+document
+  .querySelector("form")
+  .addEventListener("submit", (evento) => validarDados(evento.target));
 
-form.reset();
-
-// function validarDados() {
+// function validarDados(form) {
 //   event.preventDefault();
 //   var error = document.querySelector("#error");
 //   error.style.color = "black";
@@ -54,30 +54,26 @@ form.reset();
 
 //   var msgError = [];
 
-//   if (document.form.nome.value == "") {
+//   if (form.nome.value == "") {
 //     msgError.push("Preenchimento obrigatório!");
-//     document.form.nome.focus();
-//   } else if (document.form.email.value == "") {
+//     form.nome.focus();
+//   } else if (form.email.value == "") {
 //     msgError.push("Preenchimento obrigatório!");
-//     document.form.email.focus();
-//   } else if (document.form.assunto.value == "") {
+//     form.email.focus();
+//   } else if (form.assunto.value == "") {
 //     msgError.push("Preenchimento obrigatório!");
-//     document.form.assunto.focus();
+//     form.assunto.focus();
 //   } else if (
-//     document.form.textarea.value == "" ||
-//     document.form.textarea.value.length < 50
+//     form.email.value.indexOf("@") == -1 ||
+//     form.email.value.indexOf(".") == -1
 //   ) {
-//     msgError.push(
-//       "Campo Mensagem é obrigatório e deve conter pelo menos 50 caracteres."
-//     );
-//     document.form.textarea.focus();
-//   } else if (
-//     document.form.email.value.indexOf("@") == -1 ||
-//     document.form.email.value.indexOf(".") == -1
-//   ) {
-//     msgError.push("E-mail inválido!");
+//     msgError.push("Email inválido.");
 //   }
 
 //   error.innerHTML = msgError.join(",");
 // }
 // document.querySelector("form").addEventListener("submit", validarDados);
+
+// document
+//   .querySelector("form")
+//   .addEventListener("submit", (evento) => validarDados(evento.target));
