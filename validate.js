@@ -31,5 +31,11 @@ function validarDados(form) {
 
 document
   .querySelector("form")
-  .addEventListener("submit", (evento) => validarDados(evento.target));
-
+  .addEventListener("submit", (evento) => {
+ const formulario = evento.target;
+ validarDados(formulario);
+ formulario.nome.value = "";
+ formulario.email.value = "";
+ formulario.assunto.value = "";
+ formulario.mensagem.value = "";
+  })
